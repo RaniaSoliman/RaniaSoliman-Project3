@@ -18,6 +18,7 @@
     <style>
         <?php include 'styles.css'; ?>
     </style>
+    <!-- connect to the database -->
     <?php include("connection.php")?>  
 
     <body>
