@@ -1,0 +1,126 @@
+
+/* Below 1200px the main content must be 100% across the screen */
+@media only screen and (max-width: 1200px)  {
+    #imgCanoe{
+        width: 100%; 
+    }
+    div{
+        margin-left: 5px;
+    }
+}
+
+/* above 1200px */
+@media only screen and (min-width: 1200px)  { 
+    div{
+       margin-left: 150px;
+    }
+}
+
+/* Below 800px all font sizes must change */
+@media only screen and (max-width: 800px){
+    div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    p{
+    width: 500;
+    }
+}
+
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0;
+}
+
+/* styling the navgation bar */
+#mainheader {
+   background-color: royalblue; 
+   height: 55; 
+   font-size: x-large;
+   color: white; 
+}
+
+/* styling the hamburger button */
+#btnMenu {
+    float:left;
+    background-color: royalblue;
+    border-color: transparent;
+    margin-top: 0%;
+    height: 50px;;
+
+}
+/* main{
+    width: 10px;
+} */
+
+nav {
+    height: 55px;
+    margin: 0 5px 20px;
+    text-align: center;
+    box-shadow: inset;
+
+}
+
+/* stylying the menu items */
+div>ul>li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    color: white;
+    font-size: xx-large;
+
+}
+
+/* stylying the menu */
+#listMenu{
+    height:600px;
+    width: 80;
+    margin-left: 0%;
+    padding-right: 50px;
+    padding-left: 0%;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    background-color: royalblue;
+    display: none;
+}
+
+/* h1{
+    font-size: 35px;
+    color:black;
+    text-align: center;
+} */
+
+/* #divText{
+    background-color: rgb(233, 196, 255);
+    text-align: center;
+} */
+.btn-primary{
+    background-color: blue;
+    color: white;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: bisque;
+}
+#hRole{
+    
+    text-align: left;
+}
+h1{
+    font-size: 35px;
+    color: black;
+    }
+
+    h2{
+        color: green; 
+        text-decoration: underline;
+    }
